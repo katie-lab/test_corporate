@@ -17,7 +17,7 @@ export default async function Page(props: Props) {
   return (
     <div className={styles.container}>
       {data.contents.length === 0 ? (
-        <p className={styles.empty}>事業内容が登録されていません。追記してみるその後。削除</p>
+        <p className={styles.empty}>事業内容が登録されていません。</p>
       ) : (
         <ul>
           {data.contents.map((business) => (
